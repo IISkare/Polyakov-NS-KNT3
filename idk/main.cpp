@@ -2,5 +2,8 @@
 using namespace std;
 int main()
 {
-    cout<<"hello world";
+    int a;
+    int b;
+    cout<<"Введите 2 целых числа:"<<endl;
+    cin>>a>>b;
 }
