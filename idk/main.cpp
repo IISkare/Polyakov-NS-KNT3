@@ -4,7 +4,15 @@ int main()
 {
     int a;
     int b;
+    int c;
     cout<<"Введите 2 целых числа:"<<endl;
     cin>>a>>b;
-    cout<<a-b<<endl;
+    c = a-b;
+    cout<<c<<endl;
+    
+    for (int i = 0;i<=c;i++)
+    {
+        cout<<i<<endl;
+    }
+
 }
